@@ -60,7 +60,7 @@ class ListMealCategoryComponent extends Component {
                                     <h6>
                                     <span>20%</span> Off
                                     </h6>
-                                    <a href="" onClick={()=>this.viewMeal(this.state.firstMeal.idMeal)}>View</a>
+                                    <a href="javascript:void(0);" onClick={()=>this.viewMeal(this.state.firstMeal.idMeal)}>View</a>
                                 </div>
                                 </div>
                             </div>
@@ -78,7 +78,7 @@ class ListMealCategoryComponent extends Component {
                                     <h6>
                                     <span>15%</span> Off
                                     </h6>
-                                    <a href="" onClick={()=>this.viewMeal(this.state.secondMeal.idMeal)}>View</a>
+                                    <a href="javascript:void(0);" onClick={()=>this.viewMeal(this.state.secondMeal.idMeal)}>View</a>
                                 </div>
                                 </div>
                             </div>

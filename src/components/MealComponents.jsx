@@ -52,7 +52,7 @@ class MealComponents extends Component {
                   Watch Video
                 </a>
                 }
-                <a href="" onClick={()=>this.viewCategory(this.state.meal.strCategory)}>
+                <a href="javascript:void(0);" onClick={()=>this.viewCategory(this.state.meal.strCategory)}>
                   Back to {this.state.meal ? this.state.meal.strCategory : 'PeryPery'}
                 </a>
               </div>
